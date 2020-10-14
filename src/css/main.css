@@ -57,14 +57,6 @@ main {
   overflow: hidden;
 }
 
-/* 결혼식 연기 알림 */
-.noti {
-  margin-bottom: 1rem;
-}
-.noti img {
-  width: 100%;
-}
-
 /* 소개 */
 .info {
   position: relative;
