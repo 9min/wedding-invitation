@@ -70,6 +70,18 @@ main {
   margin-top: 3rem;
   font-size: 1.3rem;
   color: #c5b8a0;
+  animation: color-animation 1s ease infinite;
+}
+@keyframes color-animation {
+  0% {
+    color: #c5b8a0;
+  }
+  50% {
+    color: #e3ddd2;
+  }
+  100% {
+    color: #c5b8a0;
+  }
 }
 .info img {
   display: block;
@@ -485,6 +497,9 @@ main {
   content: "";
   margin: 0 0.2rem 0 0.5rem;
   font-size: 0.5rem;
+}
+.guide .noti {
+  color: #f20000;
 }
 
 /* 공유하기 */
