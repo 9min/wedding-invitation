@@ -73,7 +73,7 @@ class WeddingInvitation {
     const dday = new Date("November 14, 2020 00:00:00");
     const gap = dday.getTime() - new Date().getTime();
     const date = Math.floor(gap / (1000 * 60 * 60 * 24)) + 1;
-    this.el.dday.innerHTML = date > 0 ? `D-${date}` : "D-Day";
+    this.el.dday.innerHTML = date > 0 ? `D-${date}` : `D+${Math.abs(date)}`;
   };
 
   balloon = () => {
